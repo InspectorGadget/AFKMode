@@ -4,10 +4,10 @@ main: RTG\AFK\AFK
 api: [2.0.0, 2.1.0, 3.0.0]
 author: IG
 commands:
-  afkmode:
-    usage: "/afkmode"
-    permission: afkmode.toggle
+  afk:
+    usage: "/afk"
+    permission: afk.toggle
     description: "Toggle AFK Mode!"
 permissions:
-  afkmode.toggle:
+  afk.toggle:
     default: op
